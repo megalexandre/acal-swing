@@ -1,0 +1,23 @@
+JFDML JFormDesigner: "8.2.3.0.386" Java: "17.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"title": "Acal"
+			"$locationPolicy": 1
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+				name: "totalPanel"
+				"background": new java.awt.Color( 187, 187, 187, 255 )
+				"foreground": new java.awt.Color( 60, 63, 65, 255 )
+				"border": new javax.swing.border.EmptyBorder( 5, 5, 5, 5 )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 225, 0 )
+			"size": new java.awt.Dimension( 905, 600 )
+		} )
+	}
+}

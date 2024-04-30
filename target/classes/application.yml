@@ -1,0 +1,17 @@
+spring:
+
+    config:
+        location:
+        - classpath:application.message.yml
+
+    locale: pt-BR
+    profiles.active: develop
+
+    messages:
+        encoding: UTF-8
+        basename: messages
+
+    datasource:
+        url: jdbc:mysql://localhost:3306/acal
+        username: root
+        password: 123
